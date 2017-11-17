@@ -1,0 +1,11 @@
+extends navbar
+block content
+  .row
+    .col-md-4
+      img.img-circle.img-responsive(src="https://morganfillman.space/400/400")
+    .col-md-8
+      .jumbotron
+        h1 #{page} Page
+        if note
+          p #{note}
+        
