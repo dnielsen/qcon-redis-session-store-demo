@@ -25,7 +25,7 @@ Then run the script with the `--connection` object.
 $ node index.js --connection ./path/to/your/connection/object.json
 ```
 
-The connection object is a (node_redis)[https://github.com/NodeRedis/node_redis] connection object stored as a JSON file.
+The connection object is a [node_redis](https://github.com/NodeRedis/node_redis) connection object stored as a JSON file.
 
 After running `index.js` you should be able to connect by going to localhost:3000
 
